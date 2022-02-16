@@ -42,11 +42,12 @@ namespace Simple_Level_Designer
             //Print welcome message
             Console.WriteLine(welcome + "\n");
 
+            System.IO.Directory.CreateDirectory("levels"); //Create levels directory if it doesn't exist
 
             //Set level file
             Console.Write("Level Name> ");
             userInput = Console.ReadLine();
-            filepath = "..\\..\\..\\" + userInput + ".sslvl";
+            filepath = "levels\\" + userInput + ".sslvl";
             output = new StreamWriter(filepath);
 
             //Get width of room in tiles
