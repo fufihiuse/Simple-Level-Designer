@@ -9,6 +9,18 @@ namespace Simple_Level_Designer
 {
     class Program
     {
+        /*
+         * Level Key:
+         * 
+         * 0 - Empty
+         * W - Wall
+         * I - Invisible Wall
+         * M - Mirror
+         * E - Enemy
+         * P - Player
+         * 
+         */
+
         static void Main(string[] args)
         {
             //Variables
